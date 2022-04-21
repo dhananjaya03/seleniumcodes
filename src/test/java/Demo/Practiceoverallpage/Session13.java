@@ -12,6 +12,8 @@ public class Session13 {
 
 	public static void main(String[] args) throws InterruptedException {
 
+		System.out.println("Kumar changes done");
+		
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://omayo.blogspot.com/");
